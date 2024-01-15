@@ -1,0 +1,60 @@
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: arial;
+}
+
+.Rock-Paper-Scissors{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:100px;
+    margin-bottom: 50px;
+    
+}
+.Rock-Paper-Scissors-icon{
+    height: 50px;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Rock-Paper-Scissors-button{
+    background-color: transparent;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+.Rock-Paper-Scissors-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+.dash-result{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.dash-score{
+    margin-top: 50px;
+}
+
+.reset-score-button{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
